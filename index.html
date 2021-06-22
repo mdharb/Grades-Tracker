@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Tracker</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Grades Tracker</h1>
+
+    </header>
+
+    <main>
+        <div id="form">
+            <form id="dataForm">
+                <!-- <fieldset> -->
+
+                    <label for="studentName">Student Name</label>
+                    <input type="text" id="studentName" name="studentName">
+
+                    <br><br>
+
+                    <label for="course">Course</label>
+                    <select name="course" id="course">
+
+                        <option value="math">Math</option>
+                        <option value="english">English</option>
+                        <option value="arabic">Arabic</option>
+                        <option value="art">Art</option>
+                        <option value="science">Science</option>
+
+                        <br><br>
+                        <br><br>
+
+                        <input id= "submitButton" type="submit" value="Submit Query">
+
+                    </select>
+                <!-- </fieldset> -->
+            </form>
+        </div>
+
+        <div id="table">
+            <table id="dataTable">
+                <thead id="tHead">
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Student Grade</th>
+                        <th>Course</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
